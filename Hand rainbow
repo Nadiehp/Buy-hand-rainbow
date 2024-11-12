@@ -1,0 +1,5 @@
+local args = {
+    [1] = "Hand Rainbow"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
